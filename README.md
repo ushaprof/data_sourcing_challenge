@@ -8,9 +8,9 @@
 
 # GST data is requested from NASA API.
 
-# Both of these CSV datasets are merged using using gstID and CME_ActivityID for gst and GST_ActivityID and cmeID for cme.
+# Both of these CSV datasets are merged using gst_ActivityID for GST and cme_ActivityID for CME.
 
-# It is shown with info or shape that the number of rows matches both individual DataFrames. 
+# It is shown with info and shape that the number of rows matches both individual DataFrames. 
 
 # A new column is created that shows the difference between startTime_GST and startTime_CME called 'timeDiff'.
 
